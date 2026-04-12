@@ -5,7 +5,7 @@ A responsive weather app built with React that shows real-time weather data for 
 ---
 
 ## 🔗 Live Demo
-[Coming soon — will be deployed on Vercel]
+weather-qr8fsgkut-sujan-bks-projects.vercel.app
 
 ---
 
