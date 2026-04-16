@@ -6,6 +6,7 @@ A responsive weather app built with React that shows real-time weather data for 
 
 ## 🔗 Live Demo
 [Live Demo](https://weather-app-three-eta-72.vercel.app)
+---
 https://github.com/user-attachments/assets/31d1b7ed-4b14-4874-bb4a-944d84b65a8b
 
 ---
