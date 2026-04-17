@@ -41,9 +41,10 @@ function App() {
     handleSearch();
   }, []);
 
+
   return (
     <>
-      <div className=" relative bg-gray-200 dark:bg-gray-900 w-1/2  mx-auto p-5 flex flex-col gap-5 mt-10 rounded-3xl">
+      <div className=" relative bg-gray-200 dark:bg-gray-900 w-3/4 sm:w-1/2 mx-auto p-5 flex flex-col gap-5 mt-10 rounded-3xl">
         {loading && <LoadingSpinner />}
 
         <h1 className="text-center dark:text-white text-2xl font-bold ">

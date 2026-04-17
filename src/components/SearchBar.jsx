@@ -1,12 +1,10 @@
-
-
 function SearchBar({ onHandleSearch, city, setCity }) {
   return (
-    <div className="flex gap-2 justify-center">
+    <div className="flex gap-2 justify-center flex-wrap sm:flex-nowrap">
       <input
         onChange={(e) => setCity(e.target.value)}
         value={city}
-        className=" bg-gray-100 dark:bg-gray-600 dark:text-white w-3/4 rounded-md p-2 "
+        className=" bg-gray-100 dark:bg-gray-600 dark:text-white w-full sm:w-3/4 rounded-md p-2 "
         type="text"
         placeholder="Enter the City."
       />
