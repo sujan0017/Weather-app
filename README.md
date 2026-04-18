@@ -1,62 +1,67 @@
-# 🌤️ Weather App
+# Weather App
 
 A responsive weather app built with React that shows real-time weather data for any city in the world — including temperature, humidity, and wind speed.
 
 ---
 
-## 🔗 Live Demo
-[Live Demo](https://weather-app-three-eta-72.vercel.app)
----
+## Live Demo and Video
+
+## [Live Demo](https://weather-app-three-eta-72.vercel.app)
+
 https://github.com/user-attachments/assets/31d1b7ed-4b14-4874-bb4a-944d84b65a8b
 
+---
+
+## Built With
+
+- React (Vite)
+- Tailwind CSS v4
+- Axios
+- OpenWeatherMap API
+- React Icons
 
 ---
 
-## ⚙️ Built With
+## Features
 
-- ⚛️ React (Vite)
-- 🎨 Tailwind CSS v4
-- 📡 Axios
-- 🌍 OpenWeatherMap API
-- 🎯 Redux (React Icons)
-
----
-
-## ✨ Features
-
-- 🔍 Search weather by city name
-- 🌡️ Displays temperature in Celsius
-- 💧 Shows humidity percentage
-- 💨 Shows wind speed
-- 🌙 Dark / Light mode toggle
-- ⏳ Loading spinner while fetching data
-- ❌ Error message for invalid city names
-- 📍 Loads Manama weather on startup
+- Search weather by city name
+- Displays temperature in Celsius
+- Shows humidity percentage
+- Shows wind speed
+- Dark / Light mode toggle
+- Loading spinner while fetching data
+- Error message for invalid city names
+- Loads Manama weather on startup
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these steps to run the project locally:
 
 ### 1. Clone the repository
+
 ```bash
-git clone https://github.com/yourusername/weather-app.git
+git clone https://github.com/sujan0017/weather-app.git
 cd weather-app
 ```
 
 ### 2. Install dependencies
+
 ```bash
 npm install
 ```
 
 ### 3. Create your environment variables file
+
 Create a `.env` file in the root of the project:
+
 ```
 VITE_WEATHER_API_KEY=your_api_key_here
 ```
 
 ### 4. Run the development server
+
 ```bash
 npm run dev
 ```
@@ -67,8 +72,8 @@ npm run dev
 
 This project uses the OpenWeatherMap API. You need a free API key to run it.
 
-| Variable | Description |
-|---|---|
+| Variable               | Description                          |
+| ---------------------- | ------------------------------------ |
 | `VITE_WEATHER_API_KEY` | Your API key from openweathermap.org |
 
 👉 Get your free API key at [openweathermap.org](https://openweathermap.org)
